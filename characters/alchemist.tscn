@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://bnn5lhjuejfmc"]
 
-[ext_resource type="Texture2D" uid="uid://ca45onmyi5wic" path="res://assets/alchemist.png" id="1_8txy8"]
+[ext_resource type="Texture2D" uid="uid://drwtaxbe0gs66" path="res://assets/alchemist.png" id="1_8txy8"]
 [ext_resource type="Script" path="res://characters/alchemist.gd" id="1_j8akt"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ck0mv"]
