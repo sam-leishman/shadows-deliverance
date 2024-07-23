@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bnn5lhjuejfmc"]
+
+[ext_resource type="Texture2D" uid="uid://drwtaxbe0gs66" path="res://assets/alchemist.png" id="1_8txy8"]
+[ext_resource type="Script" path="res://characters/alchemist.gd" id="1_j8akt"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_ck0mv"]
+radius = 4.0
+
+[node name="Alchemist" type="CharacterBody2D"]
+script = ExtResource("1_j8akt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_8txy8")
+offset = Vector2(2.08165e-12, -32)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2.08165e-12, -15)
+shape = SubResource("CapsuleShape2D_ck0mv")
